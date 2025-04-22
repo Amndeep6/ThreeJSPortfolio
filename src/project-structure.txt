@@ -1,0 +1,94 @@
+PORTFOLIO PROJECT STRUCTURE
+==========================
+
+This document provides an overview of the project's source code structure and functionality.
+
+SRC FOLDER STRUCTURE
+-------------------
+
+The src folder contains two main directories:
+1. app/ - Contains the main application pages and layouts
+2. components/ - Contains reusable React components
+
+APP DIRECTORY (/src/app)
+-----------------------
+
+1. page.tsx
+   - Main landing page component
+   - Contains the primary content and layout of the homepage
+   - Integrates various components to create the complete home page experience
+
+2. layout.tsx
+   - Root layout component
+   - Defines the basic structure shared across all pages
+   - Includes metadata and global layout elements
+
+3. globals.css
+   - Global CSS styles
+   - Contains base styles, variables, and common styling rules
+
+4. Subdirectories:
+   - about/ - Contains the About page components and content
+   - projects/ - Contains the Projects page components and content
+   - contact/ - Contains the Contact page components and content
+
+5. favicon.ico
+   - Website favicon
+
+COMPONENTS DIRECTORY (/src/components)
+------------------------------------
+
+1. Navbar.tsx
+   - Navigation bar component
+   - Handles site navigation and menu functionality
+   - Includes responsive design for mobile and desktop views
+
+2. Footer.tsx
+   - Footer component
+   - Contains copyright information and additional links
+   - Provides bottom section of the website
+
+3. HeroModel.tsx
+   - Hero section component
+   - Displays the main banner/hero section of the homepage
+   - Likely includes 3D model or animation elements
+
+4. ProjectCard.tsx
+   - Reusable component for displaying project information
+   - Used in the projects section to showcase individual projects
+   - Contains project details, images, and links
+
+5. ContactForm.tsx
+   - Contact form component
+   - Handles user input and form submission
+   - Includes form validation and submission logic
+
+6. Section.tsx
+   - Generic section component
+   - Used to create consistent section layouts
+   - Provides common styling and structure for content sections
+
+7. ThemeToggle.tsx
+   - Theme switching component
+   - Handles dark/light mode toggle functionality
+   - Provides user interface for theme switching
+
+8. theme-provider.tsx
+   - Theme context provider
+   - Manages theme state across the application
+   - Provides theme context to child components
+
+TECHNOLOGY STACK
+---------------
+- Next.js (React Framework)
+- TypeScript
+- Tailwind CSS (for styling)
+- Three.js (for 3D elements)
+
+This project appears to be a modern portfolio website with features including:
+- Responsive design
+- Dark/Light theme support
+- 3D elements/animations
+- Project showcase
+- Contact functionality
+- Multiple page routing 

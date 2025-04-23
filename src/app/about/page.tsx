@@ -99,7 +99,7 @@ export default function About() {
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
               <Image
                 src="/profile.jpg"
-                alt="Amandeep Singh"
+                alt="john"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -108,7 +108,7 @@ export default function About() {
 
             <div>
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-                Amandeep Singh
+              john
               </h2>
               <p className="text-gray-700 dark:text-gray-300 mb-6">
                 I'm a passionate Full Stack Developer with a focus on creating immersive web
@@ -136,7 +136,7 @@ export default function About() {
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                     Email
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300">abhijotrawal0306@gmail.com</p>
+                  <p className="text-gray-700 dark:text-gray-300">john@gmail.com</p>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">

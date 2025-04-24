@@ -83,7 +83,7 @@ export default function Home() {
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             <span className="block">Hi, I'm</span>
-            <span className="block text-blue-600 dark:text-blue-400">Amandeep Singh</span>
+            <span className="block text-blue-600 dark:text-blue-400">john</span>
             <span className="block">Full Stack Developer</span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
@@ -344,7 +344,7 @@ export default function Home() {
                     </div>
                     <div className="ml-3">
                       <p className="text-sm font-medium text-gray-900 dark:text-white">Email</p>
-                      <p className="text-gray-700 dark:text-gray-300">abhijotrawal0306@gmail.com</p>
+                      <p className="text-gray-700 dark:text-gray-300">john@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-start">

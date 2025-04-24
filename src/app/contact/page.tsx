@@ -82,7 +82,7 @@ export default function Contact() {
                       <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                         Email
                       </h3>
-                      <p className="text-gray-700 dark:text-gray-300">abhijotrawal0306@gmail.com</p>
+                      <p className="text-gray-700 dark:text-gray-300">john@gmail.com</p>
                       <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
                         I typically respond within 24 hours.
                       </p>
